@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(island.jpg);
+}
+.logo{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+#home{
+    height: 100vh;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+a{
+    color: azure;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgba(26, 24, 24, 0.616);
+    border-radius: 5px;
+}
+a:hover{
+    box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.564);
+}
+
+.text-animation{
+    color: #ffffff;
+    border-right: 3px solid rgb(133, 225, 102);
+    width: 0;
+    font-size: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing steps(20,end)forwards
+    infinite 9s;
+
+}
+@keyframes typing{
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 100%;
+    }
+}
+
+.home{
+    display: flex;
+    position: relative;
+    top: 100px;
+    justify-content: center;
+}
+.para{
+    color: aliceblue;
+    text-align: right;
+    line-height: 5rem;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;  
+}
+
+
